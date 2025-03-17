@@ -21,10 +21,15 @@ Parameters:
     Default: cloudops-codepipeline-role
   GitHubOwner:
     Type: String
-    Default: pavanambekarn
+    Default: jayasriruben
   RepoBranchName: 
     Type: String
-    Default: pipeline
+    Default: LogicalID:
+      Type: AWS::MediaLive::InputSecurityGroup
+      Properties:
+        Tags: "JSON"
+        WhitelistRules: 
+          - Cidr: "String"
   RepoName:
     Type: String
     Default: devops
