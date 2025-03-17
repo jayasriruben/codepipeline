@@ -24,12 +24,7 @@ Parameters:
     Default: jayasriruben
   RepoBranchName: 
     Type: String
-    Default: LogicalID:
-      Type: AWS::MediaLive::InputSecurityGroup
-      Properties:
-        Tags: "JSON"
-        WhitelistRules: 
-          - Cidr: "String"
+    Default: main
   RepoName:
     Type: String
     Default: devops
