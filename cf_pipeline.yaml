@@ -21,10 +21,10 @@ Parameters:
     Default: cloudops-codepipeline-role
   GitHubOwner:
     Type: String
-    Default: jayasriruben
+    Default: pavanambekarn
   RepoBranchName: 
     Type: String
-    Default: main
+    Default: pipeline
   RepoName:
     Type: String
     Default: devops
