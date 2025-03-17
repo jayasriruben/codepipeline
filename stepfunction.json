@@ -1,7 +1,7 @@
 {
     "Parameters": {
       "DynamoDBTableName": "xpto",
-      "DynamoDBBucketName": "dynamodb-backups-bucket-1",
+      "DynamoDBBucketName": "dynamodbexport25",
       "FindLatestBackupFunctionName": "ops-find-latest-backup",
       "RestoreBackupFunctionName": "ops-restore-backup",
       "CheckRestoreStatusFunctionName": "ops-check-restore-status",
